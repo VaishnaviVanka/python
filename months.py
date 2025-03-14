@@ -1,9 +1,10 @@
 months=int(input())
-if 3 or 4 or 5:
+
+if months==3 or months==4 or months==5:
     print("Summer")
-elif 6 or 7 or 8:
+elif months==6 or months== 7 or months== 8:
     print("Rainy")
-elif 9 or 10 or 11:
+elif months==9 or months==10 or months==11:
     print("Spring")
-elif 12 or 1 or 2:
+elif months==12 or months==1 or months==2:
     print("Winter")
